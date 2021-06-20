@@ -28,7 +28,7 @@ private EmployeeService employeeService;
 	
 	
 	
-	@GetMapping("/getall")
+	@GetMapping("/getalsacscl")
 	public DataResult<List<Employee>> getAll() {
 		return this.employeeService.getAll();
 	}
